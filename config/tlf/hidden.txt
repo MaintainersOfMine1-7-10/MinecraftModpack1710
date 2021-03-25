@@ -1,0 +1,6 @@
+#List of Hidden Players
+gargule:false
+12catgame21:false
+rdharbinger:false
+magolze:false
+moon_fox:false

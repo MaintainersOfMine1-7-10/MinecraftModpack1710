@@ -1,0 +1,17 @@
+The following problems were encountered while loading the config files:
+entity_drops.cfg 'removing' #1: The following block or item doesn't seem to exist: 'TConstruct:heartCanister:3'.
+
+entity_drops.cfg 'removing' #2: The following block or item doesn't seem to exist: 'TConstruct:heartCanister:3'.
+
+entity_drops.cfg 'removing' #3: The following block or item doesn't seem to exist: 'TConstruct:heartCanister:3'.
+
+entity_drops.cfg 'removing' #4: The following block or item doesn't seem to exist: 'TConstruct:heartCanister:3'.
+
+entity_drops.cfg 'removing' #1: The following block or item doesn't seem to exist: 'TConstruct:heartCanister:5'.
+
+entity_drops.cfg 'removing' #2: The following block or item doesn't seem to exist: 'TConstruct:heartCanister:5'.
+
+entity_drops.cfg 'removing' #3: The following block or item doesn't seem to exist: 'TConstruct:heartCanister:5'.
+
+entity_drops.cfg 'removing' #4: The following block or item doesn't seem to exist: 'TConstruct:heartCanister:5'.
+
