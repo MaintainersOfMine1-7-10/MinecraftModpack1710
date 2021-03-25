@@ -1,0 +1,15 @@
+{
+    groupId : "seedoils",
+    groupName : "Seed Oils",
+    fluidElements : [
+        {
+            fluidName: "seedoil",
+            value: 1.0
+        },
+        {
+            fluidName: "plantoil",
+            value: 1.0
+        }
+
+    ]
+}
