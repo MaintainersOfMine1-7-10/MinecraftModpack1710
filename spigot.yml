@@ -19,16 +19,16 @@ messages:
   outdated-server: Outdated server! I'm still on {}
   restart: Server is restarting
 commands:
-  log: true
   tab-complete: true
+  log: true
 settings:
   late-bind: false
-  player-shuffle: 0
   sample-count: 12
   timeout-time: 90
   restart-on-crash: true
   restart-script: ./start.sh
   netty-threads: -1
+  player-shuffle: 0
   fullMatchRate: 10
   bungeecord: false
 stats:
@@ -37,13 +37,24 @@ stats:
 world-settings:
   default:
     verbose: false
-    zombie-aggressive-towards-villager: true
-    view-distance: 10
-    arrow-despawn-rate: 1200
     max-entity-collisions: 8
+    view-distance: 10
+    entity-tracking-range:
+      players: 48
+      animals: 48
+      monsters: 48
+      misc: 32
+      other: 64
+    arrow-despawn-rate: 1200
+    chunks-per-tick: 650
+    clear-tick-list: false
     merge-radius:
-      item: 2.5
       exp: 3.0
+      item: 2.5
+    use-async-lighting: true
+    item-despawn-rate: 6000
+    enable-zombie-pigmen-portal-spawns: false
+    zombie-aggressive-towards-villager: true
     anti-xray:
       enabled: false
       engine-mode: 1
@@ -88,14 +99,3 @@ world-settings:
       entity: 50
     max-tnt-per-tick: 100
     mob-spawn-range: 4
-    enable-zombie-pigmen-portal-spawns: false
-    item-despawn-rate: 6000
-    chunks-per-tick: 650
-    clear-tick-list: false
-    use-async-lighting: true
-    entity-tracking-range:
-      players: 48
-      animals: 48
-      monsters: 48
-      misc: 32
-      other: 64

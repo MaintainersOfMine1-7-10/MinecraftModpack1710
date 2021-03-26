@@ -22,40 +22,151 @@ debug:
 config-version: 1
 world-settings:
   default:
-    net-minecraft-tileentity-TileEntityChest:
-      tick-no-players: false
-      tick-interval: 1
-    net-minecraft-tileentity-TileEntityMobSpawner:
-      tick-no-players: false
-      tick-interval: 1
-    makeo-gadomancy-common-blocks-tiles-TileExtendedNode:
-      tick-no-players: false
-      tick-interval: 1
-    StevenDimDoors-modpocketDim-tileentities-TileEntityRift:
-      tick-no-players: false
-      tick-interval: 1
     forestry-apiculture-tiles-TileSwarm:
       tick-no-players: false
       tick-interval: 1
     thaumcraft-common-tiles-TileNode:
       tick-no-players: false
       tick-interval: 1
-    cofh-thermalexpansion-block-tank-TileTankCreative:
+    makeo-gadomancy-common-blocks-tiles-TileExtendedNode:
       tick-no-players: false
       tick-interval: 1
-    buildcraft-transport-TileGenericPipeCompat:
+    net-minecraft-tileentity-TileEntityChest:
       tick-no-players: false
       tick-interval: 1
-    org-cyclops-fluidconverters-tileentity-TileEntityFluidConverter:
+    net-minecraft-tileentity-TileEntityMobSpawner:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityFurnace:
+      tick-no-players: false
+      tick-interval: 1
+    StevenDimDoors-modpocketDim-tileentities-TileEntityRift:
+      tick-no-players: false
+      tick-interval: 1
+    blusunrize-immersiveengineering-common-blocks-metal-TileEntityConnectorLV:
+      tick-no-players: false
+      tick-interval: 1
+    forestry-factory-tiles-TileSqueezer:
       tick-no-players: false
       tick-interval: 1
     mods-railcraft-common-blocks-hidden-TileHidden:
       tick-no-players: false
       tick-interval: 1
+    forestry-factory-tiles-TileCarpenter:
+      tick-no-players: false
+      tick-interval: 1
+    forestry-factory-tiles-TileCentrifuge:
+      tick-no-players: false
+      tick-interval: 1
+    cofh-thermalexpansion-block-machine-TilePulverizer:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityHopper:
+      tick-no-players: false
+      tick-interval: 1
+    mods-railcraft-common-blocks-machine-alpha-TileCokeOven:
+      tick-no-players: false
+      tick-interval: 1
     cofh-thermalexpansion-block-tank-TileTank:
       tick-no-players: false
       tick-interval: 1
+    blusunrize-immersiveengineering-common-blocks-metal-TileEntitySqueezer:
+      tick-no-players: false
+      tick-interval: 1
+    com-pam-harvestcraft-TileEntityPamApiary:
+      tick-no-players: false
+      tick-interval: 1
+    com-pam-harvestcraft-TileEntityPamPresser:
+      tick-no-players: false
+      tick-interval: 1
+    forestry-apiculture-tiles-TileBeehouse:
+      tick-no-players: false
+      tick-interval: 1
+    blusunrize-immersiveengineering-common-blocks-wooden-TileEntityWindmillAdvanced:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityEnchantmentTable:
+      tick-no-players: false
+      tick-interval: 1
+    tconstruct-blocks-logic-DryingRackLogic:
+      tick-no-players: false
+      tick-interval: 1
+    cpw-mods-ironchest-TileEntityIronChest:
+      tick-no-players: false
+      tick-interval: 1
+    cpw-mods-ironchest-TileEntityGoldChest:
+      tick-no-players: false
+      tick-interval: 1
+    tconstruct-smeltery-logic-SmelteryLogic:
+      tick-no-players: false
+      tick-interval: 1
+    tconstruct-smeltery-logic-CastingBasinLogic:
+      tick-no-players: false
+      tick-interval: 1
+    tconstruct-smeltery-logic-CastingTableLogic:
+      tick-no-players: false
+      tick-interval: 1
+    appeng-tile-grindstone-TileCrank:
+      tick-no-players: false
+      tick-interval: 1
+    cofh-thermalexpansion-block-strongbox-TileStrongbox:
+      tick-no-players: false
+      tick-interval: 1
+    tconstruct-smeltery-logic-FaucetLogic:
+      tick-no-players: false
+      tick-interval: 1
     buildcraft-core-TileEngineWood:
+      tick-no-players: false
+      tick-interval: 1
+    buildcraft-transport-TileGenericPipeCompat:
+      tick-no-players: false
+      tick-interval: 1
+    tconstruct-smeltery-logic-LavaTankLogic:
+      tick-no-players: false
+      tick-interval: 1
+    forestry-mail-tiles-TileMailbox:
+      tick-no-players: false
+      tick-interval: 1
+    mods-railcraft-common-blocks-machine-beta-TileEngineSteamHobby:
+      tick-no-players: false
+      tick-interval: 1
+    forestry-apiculture-tiles-TileApiary:
+      tick-no-players: false
+      tick-interval: 1
+    thaumcraft-common-tiles-TileEldritchAltar:
+      tick-no-players: false
+      tick-interval: 1
+    thaumcraft-common-tiles-TileEldritchObelisk:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-machine-tileentity-TileEntityElectricFurnace:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-machine-tileentity-TileEntityMacerator:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-machine-tileentity-TileEntityMetalFormer:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-kineticgenerator-tileentity-TileEntityElectricKineticGenerator:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-wiring-TileEntityTransformerMV:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-machine-tileentity-TileEntityCompressor:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-generator-tileentity-TileEntityKineticGenerator:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-kineticgenerator-tileentity-TileEntityWindKineticGenerator:
+      tick-no-players: false
+      tick-interval: 1
+    cofh-thermalexpansion-block-tank-TileTankCreative:
+      tick-no-players: false
+      tick-interval: 1
+    org-cyclops-fluidconverters-tileentity-TileEntityFluidConverter:
       tick-no-players: false
       tick-interval: 1
     cofh-thermalexpansion-block-cell-TileCellCreative:
@@ -112,9 +223,6 @@ world-settings:
     thaumcraft-common-tiles-TileNodeConverter:
       tick-no-players: false
       tick-interval: 1
-    forestry-factory-tiles-TileCentrifuge:
-      tick-no-players: false
-      tick-interval: 1
     net-bdew-ae2stuff-machines-inscriber-TileInscriber:
       tick-no-players: false
       tick-interval: 1
@@ -124,31 +232,16 @@ world-settings:
     thaumicenergistics-common-tiles-TileGearBox:
       tick-no-players: false
       tick-interval: 1
-    mods-railcraft-common-blocks-machine-beta-TileEngineSteamHobby:
-      tick-no-players: false
-      tick-interval: 1
     thaumcraft-common-tiles-TileArcaneWorkbench:
       tick-no-players: false
       tick-interval: 1
     dan200-computercraft-shared-turtle-blocks-TileTurtleExpanded:
       tick-no-players: false
       tick-interval: 1
-    net-minecraft-tileentity-TileEntityHopper:
-      tick-no-players: false
-      tick-interval: 1
-    cofh-thermalexpansion-block-strongbox-TileStrongbox:
-      tick-no-players: false
-      tick-interval: 1
     cofh-thermalexpansion-block-cell-TileCell:
       tick-no-players: false
       tick-interval: 1
-    forestry-factory-tiles-TileCarpenter:
-      tick-no-players: false
-      tick-interval: 1
     exter-fodc-tileentity-TileEntityAutomaticOreConverter:
-      tick-no-players: false
-      tick-interval: 1
-    forestry-factory-tiles-TileSqueezer:
       tick-no-players: false
       tick-interval: 1
     WayofTime-alchemicalWizardry-common-tileEntity-TEPedestal:
@@ -172,22 +265,7 @@ world-settings:
     thaumcraft-common-tiles-TileMirror:
       tick-no-players: false
       tick-interval: 1
-    tconstruct-smeltery-logic-FaucetLogic:
-      tick-no-players: false
-      tick-interval: 1
     thaumcraft-common-tiles-TileVisRelay:
-      tick-no-players: false
-      tick-interval: 1
-    tconstruct-smeltery-logic-LavaTankLogic:
-      tick-no-players: false
-      tick-interval: 1
-    tconstruct-smeltery-logic-SmelteryLogic:
-      tick-no-players: false
-      tick-interval: 1
-    net-minecraft-tileentity-TileEntityFurnace:
-      tick-no-players: false
-      tick-interval: 1
-    tconstruct-smeltery-logic-CastingTableLogic:
       tick-no-players: false
       tick-interval: 1
     mods-railcraft-common-blocks-tracks-TileTrack:
@@ -200,9 +278,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     net-bdew-ae2stuff-machines-grower-TileGrower:
-      tick-no-players: false
-      tick-interval: 1
-    cofh-thermalexpansion-block-machine-TilePulverizer:
       tick-no-players: false
       tick-interval: 1
     net-bdew-ae2stuff-machines-encoder-TileEncoder:
@@ -232,12 +307,6 @@ world-settings:
     jds-bibliocraft-tileentities-TileEntityTable:
       tick-no-players: false
       tick-interval: 1
-    blusunrize-immersiveengineering-common-blocks-metal-TileEntityConnectorLV:
-      tick-no-players: false
-      tick-interval: 1
-    com-pam-harvestcraft-TileEntityPamPresser:
-      tick-no-players: false
-      tick-interval: 1
     blusunrize-immersiveengineering-common-blocks-metal-TileEntityFurnaceHeater:
       tick-no-players: false
       tick-interval: 1
@@ -245,9 +314,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     vazkii-botania-common-block-tile-TileStarfield:
-      tick-no-players: false
-      tick-interval: 1
-    appeng-tile-grindstone-TileCrank:
       tick-no-players: false
       tick-interval: 1
     jds-bibliocraft-tileentities-TileEntitySeat:
@@ -289,9 +355,6 @@ world-settings:
     thaumcraft-common-tiles-TileAlchemyFurnace:
       tick-no-players: false
       tick-interval: 1
-    tconstruct-smeltery-logic-CastingBasinLogic:
-      tick-no-players: false
-      tick-interval: 1
     blusunrize-immersiveengineering-common-blocks-metal-TileEntityConnectorHV:
       tick-no-players: false
       tick-interval: 1
@@ -311,9 +374,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     thaumcraft-common-tiles-TileThaumatoriumTop:
-      tick-no-players: false
-      tick-interval: 1
-    blusunrize-immersiveengineering-common-blocks-metal-TileEntitySqueezer:
       tick-no-players: false
       tick-interval: 1
     thaumcraft-common-tiles-TileThaumatorium:
@@ -344,15 +404,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     vazkii-botania-common-block-tile-TileAltar:
-      tick-no-players: false
-      tick-interval: 1
-    thaumcraft-common-tiles-TileEldritchAltar:
-      tick-no-players: false
-      tick-interval: 1
-    thaumcraft-common-tiles-TileEldritchObelisk:
-      tick-no-players: false
-      tick-interval: 1
-    forestry-apiculture-tiles-TileApiary:
       tick-no-players: false
       tick-interval: 1
     forestry-core-tiles-TileEscritoire:
