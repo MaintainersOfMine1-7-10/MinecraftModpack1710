@@ -12,6 +12,6 @@ mods.tconstruct.Smeltery.addMelting(<minecraft:redstone>, <liquid:redstone> * 10
 mods.tconstruct.Smeltery.addMelting(<ore:plateSteel>, <liquid:steel.molten> * 144, 800, <railcraft:cube:2>); //change block render
 
 mods.tconstruct.Smeltery.addMelting(<ore:plateIron>, <liquid:iron.molten> * 144, 800, <minecraft:iron_block>);
-mods.tconstruct.Smeltery.addMelting(<IC2:itemCasing:4>, <liquid:iron.molten> * 72, 800, <minecraft:iron_block>);
+mods.tconstruct.Smeltery.addMelting(<IC2:itemCasing:4>, <liquid:iron.molten> * 72, 400, <minecraft:iron_block>);
 
 mods.tconstruct.Smeltery.addMelting(<ImmersiveEngineering:metalDecoration>, <liquid:steel.molten> * 216, 800, <railcraft:cube:2>);
