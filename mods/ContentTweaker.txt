@@ -1,0 +1,51 @@
+
+ This mod requires Crafttweaker to run.
+
+Info:
+
+ContentTweaker is an addon for CraftTweaker. Crafttweaker lets you adjust recipes, remove them entirely, or add new recipes. One of the features that it lacks is the ability to create new items and blocks, ContentTweaker plans on allowing users to add more to their game, not only recipes but actual items and blocks.
+
+ 
+
+Currently, with ContentTweaker, you can add the following:
+
+ • New Items
+
+ • New Blocks
+
+ • New Creative Tabs
+
+ 
+
+Due to the limitations enforced by Minetweaker, Scripts containing methods from this mod, should be treated differently from normal Minetweaker scripts, the most noticeable differences are:
+
+• Scripts go in the "scripts" folder same as CraftTweaker, however they need to start with '#loader contenttweaker`' as the first line
+
+ 
+
+You can find more information here:
+You can find documentation for the mod on the official Minetweaker wiki here: ContentTweaker Wiki
+How It Works:
+
+Using a Zenscript Syntax you can create new items and blocks to the game rather simply.
+These blocks are treated the same way as any other standard block, and thus requires a model(Supports .obj)/texture JSON and a texture. 
+
+You'll find appropriate directories in the ACRONYM/ContentTweaker sub-folder in your config directory. More information on how to create your blocks and how to handle resources will be available on our GitHub wiki and hopefully soon on the official MineTweaker web page!
+
+ 
+
+Here's one of the very basic test examples we currently feature on our GitHub wiki:
+
+import mods.contenttweaker.VanillaFactory; import mods.contenttweaker.Block; var zsBlock = VanillaFactory.createBlock("zs_block", <blockmaterial:iron>); zsBlock.fullBlock = true; zsBlock.lightOpacity = 255; zsBlock.translucent = true; zsBlock.lightValue = 1.0; zsBlock.blockHardness = 5.0; zsBlock.blockResistance = 5.0; zsBlock.toolClass = "pickaxe"; zsBlock.toolLevel = 2; zsBlock.blockSoundType = <soundtype:metal>; zsBlock.register();
+
+Want to do a mod spotlight? 
+Would be awesome! Send us a link so we can check it out!
+
+Modpack: 
+You have our permission to use this mod in any private & publicly distributed mod pack.
+
+Discord: 
+Talk to the developers here!
+
+You can find us on twitter at:  
+@Lanse @Jared @SkySom
