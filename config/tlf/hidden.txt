@@ -1,4 +1,5 @@
 #List of Hidden Players
+red:false
 gargule:false
 12catgame21:false
 rdharbinger:false
