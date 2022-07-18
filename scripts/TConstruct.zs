@@ -1,3 +1,7 @@
+#kekes
+<GrimoireOfGaia:item.GrimoireOfGaia.MiscFurnaceFuel>.maxStackSize = 999;
+#/kekes
+
 recipes.addShapeless(<TConstruct:heartCanister:6>,
    [<TConstruct:heartCanister:4>, <TConstruct:heartCanister:5>, <minecraft:nether_star>]);
 #Рецепт зелёной банки   
