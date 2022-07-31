@@ -5,3 +5,4 @@ gargule:false
 rdharbinger:false
 magolze:false
 moon_fox:false
+abadon:false

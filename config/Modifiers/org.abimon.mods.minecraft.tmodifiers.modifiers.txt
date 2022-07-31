@@ -10,9 +10,9 @@ Class: org.abimon.mods.minecraft.tmodifiers.modifiers.ModCustomAttack
 Interfaces: 
 	org.abimon.mods.minecraft.tmodifiers.modifiers.TActiveMod
 Constructors: 
-	public org.abimon.mods.minecraft.tmodifiers.modifiers.ModCustomAttack(net.minecraft.item.ItemStack[] stacks, java.lang.String key, int initialIncrease, int secondaryIncrease, java.lang.String color, java.lang.String tooltipName, java.lang.String[] ENTITY_LIST, int max)
-	public org.abimon.mods.minecraft.tmodifiers.modifiers.ModCustomAttack(net.minecraft.item.ItemStack[] stacks, java.lang.String key, int initialIncrease, java.lang.String color, java.lang.String tooltipName, java.lang.String[] ENTITY_LIST, int max)
 	public org.abimon.mods.minecraft.tmodifiers.modifiers.ModCustomAttack(net.minecraft.item.ItemStack[] stacks, int effectIndex, java.lang.String key, int initialIncrease, int secondaryIncrease, java.lang.String color, java.lang.String tooltipName, java.lang.String[] ENTITY_LIST, int max, boolean whitelist)
+	public org.abimon.mods.minecraft.tmodifiers.modifiers.ModCustomAttack(net.minecraft.item.ItemStack[] stacks, java.lang.String key, int initialIncrease, java.lang.String color, java.lang.String tooltipName, java.lang.String[] ENTITY_LIST, int max)
+	public org.abimon.mods.minecraft.tmodifiers.modifiers.ModCustomAttack(net.minecraft.item.ItemStack[] stacks, java.lang.String key, int initialIncrease, int secondaryIncrease, java.lang.String color, java.lang.String tooltipName, java.lang.String[] ENTITY_LIST, int max)
 	public org.abimon.mods.minecraft.tmodifiers.modifiers.ModCustomAttack(net.minecraft.item.ItemStack[] stacks, java.lang.String key, int initialIncrease, java.lang.String color, java.lang.String tooltipName, java.lang.String[] ENTITY_LIST, int max, boolean whitelist)
 	public org.abimon.mods.minecraft.tmodifiers.modifiers.ModCustomAttack(net.minecraft.item.ItemStack[] stacks, java.lang.String key, int initialIncrease, int secondaryIncrease, java.lang.String color, java.lang.String tooltipName, java.lang.String[] ENTITY_LIST, int max, boolean whitelist)
 	public org.abimon.mods.minecraft.tmodifiers.modifiers.ModCustomAttack(net.minecraft.item.ItemStack[] stacks, int effectIndex, java.lang.String key, int initialIncrease, java.lang.String color, java.lang.String tooltipName, java.lang.String[] ENTITY_LIST, int max, int noPurpose)
@@ -53,8 +53,8 @@ Interfaces:
 	org.abimon.mods.minecraft.tmodifiers.modifiers.TActiveMod
 Constructors: 
 	public org.abimon.mods.minecraft.tmodifiers.modifiers.ModCustomBlaze(net.minecraft.item.ItemStack[] stacks, int effectIndex, java.lang.String key, int initialIncrease, java.lang.String color, java.lang.String tooltipName)
-	public org.abimon.mods.minecraft.tmodifiers.modifiers.ModCustomBlaze(net.minecraft.item.ItemStack[] stacks, int effectIndex, java.lang.String key, int initialIncrease, int secondaryIncrease, java.lang.String color, java.lang.String tooltipName)
 	public org.abimon.mods.minecraft.tmodifiers.modifiers.ModCustomBlaze(net.minecraft.item.ItemStack[] stacks, int effectIndex, java.lang.String key, int initialIncrease, java.lang.String color, java.lang.String tooltipName, int max, int maxApplication)
+	public org.abimon.mods.minecraft.tmodifiers.modifiers.ModCustomBlaze(net.minecraft.item.ItemStack[] stacks, int effectIndex, java.lang.String key, int initialIncrease, int secondaryIncrease, java.lang.String color, java.lang.String tooltipName)
 	public org.abimon.mods.minecraft.tmodifiers.modifiers.ModCustomBlaze(net.minecraft.item.ItemStack[] stacks, int effectIndex, java.lang.String key, int initialIncrease, int secondaryIncrease, java.lang.String color, java.lang.String tooltipName, int max, int maxApplication)
 ********************************
 ********************************
@@ -77,14 +77,14 @@ Class: org.abimon.mods.minecraft.tmodifiers.modifiers.ModCustomFortune
 Interfaces: 
 	org.abimon.mods.minecraft.tmodifiers.modifiers.TActiveMod
 Constructors: 
-	public org.abimon.mods.minecraft.tmodifiers.modifiers.ModCustomFortune(java.lang.String key, int effectIndex, net.minecraft.item.ItemStack[] stacks, int[] increase, java.lang.String tooltipName, java.lang.String modifierTip)
 	public org.abimon.mods.minecraft.tmodifiers.modifiers.ModCustomFortune(java.lang.String key, int effectIndex, net.minecraft.item.ItemStack[] stacks, int[] increase, java.lang.String tooltipName)
-	public org.abimon.mods.minecraft.tmodifiers.modifiers.ModCustomFortune(java.lang.String key, int effectIndex, net.minecraft.item.ItemStack[] stacks, int[] increase)
 	public org.abimon.mods.minecraft.tmodifiers.modifiers.ModCustomFortune(java.lang.String key, net.minecraft.item.ItemStack[] stacks, int[] increase)
+	public org.abimon.mods.minecraft.tmodifiers.modifiers.ModCustomFortune(java.lang.String key, int effectIndex, net.minecraft.item.ItemStack[] stacks, int[] increase, java.lang.String tooltipName, java.lang.String modifierTip)
+	public org.abimon.mods.minecraft.tmodifiers.modifiers.ModCustomFortune(java.lang.String key, int effectIndex, net.minecraft.item.ItemStack[] stacks, int[] increase)
 	public org.abimon.mods.minecraft.tmodifiers.modifiers.ModCustomFortune(java.lang.String key, int effectIndex, net.minecraft.item.ItemStack[] stacks, int[] increase, java.lang.String tooltipName, java.lang.String modifierTip, int max, boolean withSilktouch, boolean withAutosmelt, int[] luckValues)
-	public org.abimon.mods.minecraft.tmodifiers.modifiers.ModCustomFortune(java.lang.String key, int effectIndex, net.minecraft.item.ItemStack[] stacks, int[] increase, java.lang.String tooltipName, java.lang.String modifierTip, int max, boolean withSilktouch, boolean withAutosmelt)
 	public org.abimon.mods.minecraft.tmodifiers.modifiers.ModCustomFortune(java.lang.String key, int effectIndex, net.minecraft.item.ItemStack[] stacks, int[] increase, java.lang.String tooltipName, java.lang.String modifierTip, int max, boolean withSilktouch)
 	public org.abimon.mods.minecraft.tmodifiers.modifiers.ModCustomFortune(java.lang.String key, int effectIndex, net.minecraft.item.ItemStack[] stacks, int[] increase, java.lang.String tooltipName, java.lang.String modifierTip, int max)
+	public org.abimon.mods.minecraft.tmodifiers.modifiers.ModCustomFortune(java.lang.String key, int effectIndex, net.minecraft.item.ItemStack[] stacks, int[] increase, java.lang.String tooltipName, java.lang.String modifierTip, int max, boolean withSilktouch, boolean withAutosmelt)
 ********************************
 ********************************
 Class: org.abimon.mods.minecraft.tmodifiers.modifiers.ModCustomHaste
