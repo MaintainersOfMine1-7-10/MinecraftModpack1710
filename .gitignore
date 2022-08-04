@@ -1,0 +1,11 @@
+*/
+/*
+!/mods/
+!/mods/*
+!/config/
+!/config/*
+!/scripts/
+!/scripts/*
+!/resourcepacks/*
+!/.gitignore
+!/.gitattributes
