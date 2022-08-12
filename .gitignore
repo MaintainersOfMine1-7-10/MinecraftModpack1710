@@ -4,6 +4,7 @@
 !/mods/*
 !/config/
 !/config/*
+!/config/*/*
 !/scripts/
 !/scripts/*
 !/resourcepacks/*
