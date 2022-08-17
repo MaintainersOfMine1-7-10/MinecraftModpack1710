@@ -53,3 +53,4 @@ oreDictEnt.add(<guideapi:ItemGuideBook:*>);
 oreDictEnt.add(<arsmagica2:bookAffinity:*>);
 oreDictEnt.add(<witchery:vampirebook:*>);
 oreDictEnt.add(<TConstruct:manualBook:*>);
+//for a testing purposes
