@@ -49,8 +49,8 @@ oreDictEnt.addItems([
 	<OpenComputers:item:98>,
 	<Railcraft:routing.table>
 ]);
-oreDictEnt.add(<guideapi:ItemGuideBook:*>);
-oreDictEnt.add(<arsmagica2:bookAffinity:*>);
-oreDictEnt.add(<witchery:vampirebook:*>);
-oreDictEnt.add(<TConstruct:manualBook:*>);
+oreDictEnt.add(<guideapi:ItemGuideBook>);
+oreDictEnt.add(<arsmagica2:bookAffinity>);
+oreDictEnt.add(<witchery:vampirebook>);
+oreDictEnt.add(<TConstruct:manualBook>);
 //for a testing purposes
