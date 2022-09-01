@@ -1,0 +1,181 @@
+invertYMouse:false
+mouseSensitivity:0.5
+fov:0.0
+gamma:0.0
+saturation:0.0
+renderDistance:12
+guiScale:2
+particles:0
+bobView:true
+anaglyph3d:false
+advancedOpengl:false
+maxFps:260
+fboEnable:true
+difficulty:2
+fancyGraphics:true
+ao:2
+clouds:true
+resourcePacks:["GPack.zip"]
+lastServer:26.68.46.8
+lang:ru_RU
+chatVisibility:0
+chatColors:true
+chatLinks:true
+chatLinksPrompt:true
+chatOpacity:1.0
+snooperEnabled:true
+fullscreen:false
+enableVsync:true
+hideServerAddress:false
+advancedItemTooltips:false
+pauseOnLostFocus:true
+showCape:true
+touchscreen:false
+overrideWidth:0
+overrideHeight:0
+heldItemTooltips:true
+chatHeightFocused:1.0
+chatHeightUnfocused:0.44366196
+chatScale:1.0
+chatWidth:1.0
+showInventoryAchievementHint:false
+mipmapLevels:4
+anisotropicFiltering:1
+streamBytesPerPixel:0.5
+streamMicVolume:1.0
+streamSystemVolume:1.0
+streamKbps:0.5412844
+streamFps:0.31690142
+streamCompression:1
+streamSendMetadata:true
+streamPreferredServer:
+streamChatEnabled:0
+streamChatUserFilter:0
+streamMicToggleBehavior:0
+forceUnicodeFont:false
+key_key.attack:-100
+key_key.use:-99
+key_key.forward:17
+key_key.left:30
+key_key.back:31
+key_key.right:32
+key_key.jump:57
+key_key.sneak:42
+key_key.drop:16
+key_key.inventory:43
+key_key.chat:28
+key_key.playerlist:15
+key_key.pickItem:-98
+key_key.command:53
+key_key.screenshot:60
+key_key.togglePerspective:63
+key_key.smoothCamera:0
+key_key.sprint:29
+key_key.streamStartStop:43
+key_key.streamPauseUnpause:43
+key_key.streamCommercial:0
+key_key.streamToggleMic:0
+key_key.fullscreen:87
+key_key.hotbar.1:2
+key_key.hotbar.2:3
+key_key.hotbar.3:4
+key_key.hotbar.4:5
+key_key.hotbar.5:6
+key_key.hotbar.6:7
+key_key.hotbar.7:8
+key_key.hotbar.8:9
+key_key.hotbar.9:10
+key_Zoom:43
+key_ALT Key:56
+key_Boost Key:29
+key_Mode Switch Key:42
+key_Side Inventory Key:43
+key_Hub Expand Key:43
+key_key.openCompendium:207
+key_invtweaks.key.sort:43
+key_Gravi Fly Key:35
+key_key.secretroomsmod.oneWayface:43
+key_key.cofh.multimode:27
+key_Gravi Display Hud:64
+key_key.cofh.empower:26
+key_Fire Ability 0:79
+key_Fire Ability 1:80
+key_Fire Ability 2:81
+key_Fire Ability 3:82
+key_cos.key.openCosArmorInventory:18&ALT
+key_Gravi Fly Key:35
+key_Gravi Display Hud:64
+key_Baubles Inventory:43
+key_Change Wand Focus:33
+key_Activate Hover Harness:35
+key_Misc Wand Toggle:13
+key_waila.keybind.wailaconfig:77
+key_waila.keybind.wailadisplay:76
+key_waila.keybind.liquid:75
+key_waila.keybind.recipe:43
+key_waila.keybind.usage:43
+key_ttmisc.toggleArmor:22
+key_key.tarmor:71
+key_key.tgoggles:199
+key_key.tbelt:34
+key_key.tzoom:40
+key_TG.keybind.openInv:18
+key_TG.keybind.activeaAbilities:20
+key_key.placeItem:25
+key_key.toolConfig:73
+key_key.toolProfileChange:-99&SHIFT
+key_key.toggleFlight:0
+key_Переключить пукание:36
+key_Открыть продвинутый верстак:72
+key_Mekanism Переключить режим предмета:-99
+key_Mekanism Переключить режим брони:35
+key_Mekanism Голос:43
+key_key.materialCosts:56
+key_key.clipboardPaste:210
+key_key.primitivemobs.desc:38&ALT
+key_key.quit:1
+key_key.hideHUD:59
+key_key.debugScreen:61
+key_key.disableShader:62
+key_key.radialmenu:33&ALT
+key_key.useRing:19
+key_key.openPouch:39
+key_collectiveframework.keybindings.timeBack:43
+key_collectiveframework.keybindings.timeForward:43
+key_Automagy.key.focusCrafting:43
+key_invtweaks.key.sort:43
+key_Снять:44
+key_key.secretroomsmod.oneWayface:43
+key_Change Arcane Lens:47
+key_Activate Morphic Fingers:49
+key_Toggle Spider Climb:37
+key_Toggle Chameleon Skin:38
+key_key.ShapeGroups:46
+key_key.SpellBookNext:43
+key_key.SpellBookPrev:43
+key_key.AuraCustomization:48
+key_key.ToggleManaDisplay:24
+key_key.ActivateAffinityAbility:45
+key_key.cofh.empower:26
+key_key.cofh.multimode:27
+key_railcraft.keybind.loco.faster:200
+key_railcraft.keybind.loco.slower:208
+key_railcraft.keybind.loco.mode:203
+key_railcraft.keybind.loco.whistle:205
+key_key.control:43
+key_key.minimap.voxelmapmenu:50&ALT
+key_key.minimap.waypointhotkey:50&SHIFT
+key_key.minimap.zoom:201
+key_key.minimap.togglefullscreen:50
+key_key.minimap.togglemobs:0
+key_key.minimap.waypointmenu:0
+soundCategory_master:1.0
+soundCategory_music:1.0
+soundCategory_record:1.0
+soundCategory_weather:1.0
+soundCategory_block:1.0
+soundCategory_hostile:1.0
+soundCategory_neutral:1.0
+soundCategory_player:1.0
+soundCategory_ambient:1.0
+soundCategory_chroma_music:1.0

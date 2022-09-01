@@ -10,3 +10,4 @@
 !/resourcepacks/*
 !/.gitignore
 !/.gitattributes
+!/controls.txt
