@@ -229,6 +229,7 @@ mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <Thaumcraft:HandMirror>,
 /* 
 Прикрутка вкладки
 */
+var tabName = "DIMDOORS";
 
 # Инициализация переменных для удобства
 var tabTextureMod = "dimdoors"; //id мода для получения текстуры
@@ -243,8 +244,8 @@ var backTextureSrc = "textures/other/RIFT.png";
 
 # Создание вкладки
 Research.addTab(tabName, tabTextureMod, tabTextureSrc, backTextureMod, backTextureSrc);
-  game.setLocalization("en_US", "tc.research_category.DIMDOORS", "Dimensional Doors");
-  game.setLocalization("ru_RU", "tc.research_category.DIMDOORS", "Пространственные Двери");
+  game.setLocalization("en_US", "tc.research_category." + tabName, "Dimensional Doors");
+  game.setLocalization("ru_RU", "tc.research_category." + tabName, "Пространственные Двери");
 
 /* 
 Прикрутка исследований
