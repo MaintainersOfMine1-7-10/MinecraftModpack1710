@@ -4,8 +4,9 @@ oreDictBasalt.addItems([
 	<ProjRed|Exploration:projectred.exploration.stone:3>
 ]);
 
-val oreDictStone = <ore:stone>;
+val oreDictStone = <ore:momDecoStone>;
 oreDictStone.addItems([
+	<minecraft:stone>,
 	<Botania:stone>,
 	<Botania:stone:2>,
 	<Botania:stone:3>,
