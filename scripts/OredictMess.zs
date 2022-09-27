@@ -48,9 +48,36 @@ oreDictEnt.addItems([
 	<ImmersiveEngineering:tool:3>,
 	<OpenComputers:item:98>,
 	<Railcraft:routing.table>
+	<guideapi:ItemGuideBook:0>
+	<guideapi:ItemGuideBook:1>
+	<guideapi:ItemGuideBook:2>
+	<guideapi:ItemGuideBook:3>
+	<arsmagica2:bookAffinity:0>
+	<arsmagica2:bookAffinity:1>
+	<arsmagica2:bookAffinity:2>
+	<arsmagica2:bookAffinity:3>
+	<arsmagica2:bookAffinity:4>
+	<arsmagica2:bookAffinity:5>
+	<arsmagica2:bookAffinity:6>
+	<arsmagica2:bookAffinity:7>
+	<arsmagica2:bookAffinity:8>
+	<arsmagica2:bookAffinity:9>
+	<arsmagica2:bookAffinity:10>
+	<witchery:vampirebook:0>
+	<witchery:vampirebook:1>
+	<witchery:vampirebook:2>
+	<witchery:vampirebook:3>
+	<witchery:vampirebook:4>
+	<witchery:vampirebook:5>
+	<witchery:vampirebook:6>
+	<witchery:vampirebook:7>
+	<witchery:vampirebook:8>
+	<witchery:vampirebook:9>
+	<TConstruct:manualBook:0>
+	<TConstruct:manualBook:1>
+	<TConstruct:manualBook:2>
+	<TConstruct:manualBook:3>
+	<TConstruct:manualBook:4>
 ]);
-oreDictEnt.add(<guideapi:ItemGuideBook>);
-oreDictEnt.add(<arsmagica2:bookAffinity>);
-oreDictEnt.add(<witchery:vampirebook>);
-oreDictEnt.add(<TConstruct:manualBook>);
+
 //for a testing purposes
