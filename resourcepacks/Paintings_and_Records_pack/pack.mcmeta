@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "pack_format": 1,
+    "description": "Пак музыки и картин для сборки Gargule"
+   },
+   "language":{
+      "aa_US":{
+         "name":"Unused",
+         "region":"US",
+         "bidirectional":false
+      }
+   }
+}
