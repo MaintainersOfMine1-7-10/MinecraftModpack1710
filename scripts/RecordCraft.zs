@@ -1,7 +1,7 @@
 import mods.thaumcraft.Research;
 import mods.thaumcraft.Aspects;
 
-val output1 = <lootplusplus:loot_item>.withTag({Type: "musicchest", Unwrap: 1 as byte});
+val output1 = <lootplusplus:loot_item>.withTag({Type: "musicchest", Unwrap: true});
 
 recipes.addShaped(output1, [
 [null,<TwilightForest:item.transformPowder>,null],
@@ -13,43 +13,39 @@ recipes.addShaped(output1, [
 [<ImmersiveEngineering:shaderBag>.withTag({rarity: "common"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "common"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "common"})],
 [<ImmersiveEngineering:shaderBag>.withTag({rarity: "common"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "common"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "common"})]
 ]);
-
 recipes.addShaped(output1 * 2, [
 [<ImmersiveEngineering:shaderBag>.withTag({rarity: "uncommon"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "uncommon"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "uncommon"})],
 [<ImmersiveEngineering:shaderBag>.withTag({rarity: "uncommon"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "uncommon"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "uncommon"})],
 [<ImmersiveEngineering:shaderBag>.withTag({rarity: "uncommon"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "uncommon"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "uncommon"})]
 ]);
-
 recipes.addShaped(output1 * 4, [
 [<ImmersiveEngineering:shaderBag>.withTag({rarity: "rare"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "rare"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "rare"})],
 [<ImmersiveEngineering:shaderBag>.withTag({rarity: "rare"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "rare"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "rare"})],
 [<ImmersiveEngineering:shaderBag>.withTag({rarity: "rare"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "rare"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "rare"})]
 ]);
-
 recipes.addShaped(output1 * 8, [
 [<ImmersiveEngineering:shaderBag>.withTag({rarity: "epic"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "epic"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "epic"})],
 [<ImmersiveEngineering:shaderBag>.withTag({rarity: "epic"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "epic"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "epic"})],
 [<ImmersiveEngineering:shaderBag>.withTag({rarity: "epic"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "epic"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "epic"})]
 ]);
-
 recipes.addShaped(output1 * 16, [
 [<ImmersiveEngineering:shaderBag>.withTag({rarity: "relic"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "relic"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "relic"})],
 [<ImmersiveEngineering:shaderBag>.withTag({rarity: "relic"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "relic"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "relic"})],
 [<ImmersiveEngineering:shaderBag>.withTag({rarity: "relic"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "relic"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "relic"})]
 ]);
 
-mods.bloodmagic.BloodOrb.addShaped(<lootplusplus:loot_item>.withTag({Type: "musicchest", Unwrap: 1 as byte}) * 4, [
+mods.bloodmagic.BloodOrb.addShaped(output1 * 4, [
 [<AWWayofTime:imbuedSlate>, <ore:record>, <AWWayofTime:imbuedSlate>], 
 [<ore:record>, <AWWayofTime:magicianBloodOrb>, <ore:record>], 
 [<AWWayofTime:imbuedSlate>, <ore:record>, <AWWayofTime:imbuedSlate>]
 ]);
 
-mods.botania.RuneAltar.addRecipe(<lootplusplus:loot_item>.withTag({Type: "musicchest", Unwrap: 1 as byte}) * 5, [<ore:record>, <Botania:rune:4>, <ore:record>, <Botania:rune:5>, <ore:record>, <Botania:rune:6>, <ore:record>, <Botania:rune:7>, <ore:record>, <Botania:rune:8>], 25000);
+mods.botania.RuneAltar.addRecipe(output1 * 5, [<ore:record>, <Botania:rune:4>, <ore:record>, <Botania:rune:5>, <ore:record>, <Botania:rune:6>, <ore:record>, <Botania:rune:7>, <ore:record>, <Botania:rune:8>], 25000);
 
 mods.thaumcraft.Crucible.addRecipe("DISCCRAFT", <GrimoireOfGaia:item.GrimoireOfGaia.BoxIron>, <Thaumcraft:ItemLootBag:0>, "permutatio 4, metallum 10");
 mods.thaumcraft.Crucible.addRecipe("DISCCRAFT", <GrimoireOfGaia:item.GrimoireOfGaia.BoxGold>, <Thaumcraft:ItemLootBag:0>, "permutatio 4, metallum 10, lucrum 6");
 mods.thaumcraft.Crucible.addRecipe("DISCCRAFT", <GrimoireOfGaia:item.GrimoireOfGaia.BagRecord>, <Thaumcraft:ItemLootBag:1>, "permutatio 20, sensus 10");
-mods.thaumcraft.Crucible.addRecipe("DISCCRAFT", <lootplusplus:loot_item>.withTag({Type: "musicchest", Unwrap: 1 as byte, PrimaryColor: 11221757, SecondaryColor: 11414132}), <Thaumcraft:ItemLootBag:1>, "permutatio 40, sensus 20");
+mods.thaumcraft.Crucible.addRecipe("DISCCRAFT", output1, <Thaumcraft:ItemLootBag:1>, "permutatio 40, sensus 20");
 mods.thaumcraft.Crucible.addRecipe("DISCCRAFT", <GrimoireOfGaia:item.GrimoireOfGaia.BoxDiamond>, <Thaumcraft:ItemLootBag:1>, "permutatio 4, vitreus 12, lucrum 12");
 mods.thaumcraft.Crucible.addRecipe("DISCCRAFT", <GrimoireOfGaia:item.GrimoireOfGaia.BagBook>, <Thaumcraft:ItemLootBag:2>, "permutatio 10, cognitio 30, praecantatio 10");
 mods.thaumcraft.Crucible.addRecipe("DISCCRAFT", <GrimoireOfGaia:item.GrimoireOfGaia.BoxOld>, <Thaumcraft:ItemLootBag:2>, "permutatio 40, superbia 5, luxuria 5, alienis 20, lucrum 25");
@@ -70,7 +66,7 @@ Research.addCruciblePage("DISCCRAFT", <GrimoireOfGaia:item.GrimoireOfGaia.BoxIro
 Research.addCruciblePage("DISCCRAFT", <GrimoireOfGaia:item.GrimoireOfGaia.BoxGold>);
 Research.addCruciblePage("DISCCRAFT", <GrimoireOfGaia:item.GrimoireOfGaia.BoxDiamond>);
 Research.addCruciblePage("DISCCRAFT", <GrimoireOfGaia:item.GrimoireOfGaia.BagRecord>);
-Research.addCruciblePage("DISCCRAFT", <lootplusplus:loot_item>.withTag({Type: "musicchest", Unwrap: 1 as byte, PrimaryColor: 11221757, SecondaryColor: 11414132}));
+Research.addCruciblePage("DISCCRAFT", output1);
 Research.addCruciblePage("DISCCRAFT", <GrimoireOfGaia:item.GrimoireOfGaia.BagBook>);
 Research.addCruciblePage("DISCCRAFT", <GrimoireOfGaia:item.GrimoireOfGaia.BoxOld>);
 
