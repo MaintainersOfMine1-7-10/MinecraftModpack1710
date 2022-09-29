@@ -9,36 +9,12 @@ recipes.addShaped(output1, [
 [null,<TwilightForest:item.transformPowder>,null]
 ]);
 recipes.addShaped(output1, [
-[<ImmersiveEngineering:shaderBag>.withTag({rarity: "common"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "common"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "common"})],
-[<ImmersiveEngineering:shaderBag>.withTag({rarity: "common"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "common"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "common"})],
-[<ImmersiveEngineering:shaderBag>.withTag({rarity: "common"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "common"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "common"})]
-]);
-recipes.addShaped(output1 * 2, [
-[<ImmersiveEngineering:shaderBag>.withTag({rarity: "uncommon"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "uncommon"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "uncommon"})],
-[<ImmersiveEngineering:shaderBag>.withTag({rarity: "uncommon"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "uncommon"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "uncommon"})],
-[<ImmersiveEngineering:shaderBag>.withTag({rarity: "uncommon"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "uncommon"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "uncommon"})]
-]);
-recipes.addShaped(output1 * 4, [
-[<ImmersiveEngineering:shaderBag>.withTag({rarity: "rare"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "rare"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "rare"})],
-[<ImmersiveEngineering:shaderBag>.withTag({rarity: "rare"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "rare"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "rare"})],
-[<ImmersiveEngineering:shaderBag>.withTag({rarity: "rare"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "rare"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "rare"})]
-]);
-recipes.addShaped(output1 * 8, [
-[<ImmersiveEngineering:shaderBag>.withTag({rarity: "epic"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "epic"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "epic"})],
-[<ImmersiveEngineering:shaderBag>.withTag({rarity: "epic"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "epic"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "epic"})],
-[<ImmersiveEngineering:shaderBag>.withTag({rarity: "epic"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "epic"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "epic"})]
-]);
-recipes.addShaped(output1 * 16, [
-[<ImmersiveEngineering:shaderBag>.withTag({rarity: "relic"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "relic"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "relic"})],
-[<ImmersiveEngineering:shaderBag>.withTag({rarity: "relic"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "relic"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "relic"})],
-[<ImmersiveEngineering:shaderBag>.withTag({rarity: "relic"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "relic"}),<ImmersiveEngineering:shaderBag>.withTag({rarity: "relic"})]
+[<ImmersiveEngineering:shaderBag>.onlyWithTag({rarity: "common"}),<ImmersiveEngineering:shaderBag>.onlyWithTag({rarity: "common"}),<ImmersiveEngineering:shaderBag>.onlyWithTag({rarity: "common"})],
+[<ImmersiveEngineering:shaderBag>.onlyWithTag({rarity: "common"}),<ImmersiveEngineering:shaderBag>.onlyWithTag({rarity: "common"}),<ImmersiveEngineering:shaderBag>.onlyWithTag({rarity: "common"})],
+[<ImmersiveEngineering:shaderBag>.onlyWithTag({rarity: "common"}),<ImmersiveEngineering:shaderBag>.onlyWithTag({rarity: "common"}),<ImmersiveEngineering:shaderBag>.onlyWithTag({rarity: "common"})]
 ]);
 
-mods.bloodmagic.BloodOrb.addShaped(output1 * 4, [
-[<AWWayofTime:imbuedSlate>, <ore:record>, <AWWayofTime:imbuedSlate>], 
-[<ore:record>, <AWWayofTime:magicianBloodOrb>, <ore:record>], 
-[<AWWayofTime:imbuedSlate>, <ore:record>, <AWWayofTime:imbuedSlate>]
-]);
+mods.bloodmagic.BloodOrb.addShapeless(output1, [<AWWayofTime:magicianBloodOrb>, <ore:record>, <AWWayofTime:imbuedSlate>]);
 
 mods.botania.RuneAltar.addRecipe(output1 * 5, [<ore:record>, <Botania:rune:4>, <ore:record>, <Botania:rune:5>, <ore:record>, <Botania:rune:6>, <ore:record>, <Botania:rune:7>, <ore:record>, <Botania:rune:8>], 25000);
 

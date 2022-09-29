@@ -260,6 +260,15 @@
 			}
 		]
 	},
+	"records.record_gargule_10": {
+		"category": "record",
+		"sounds": [
+			{
+				"name": "records/record_gargule_10",
+				"stream": true
+			}
+		]
+	},
 	"records.record_abadon_01": {
 		"category": "record",
 		"sounds": [
@@ -463,6 +472,60 @@
 		"sounds": [
 			{
 				"name": "records/record_sparkling_cat_04",
+				"stream": true
+			}
+		]
+	},
+	"records.record_sparkling_cat_05": {
+		"category": "record",
+		"sounds": [
+			{
+				"name": "records/record_sparkling_cat_05",
+				"stream": true
+			}
+		]
+	},
+	"records.record_sparkling_cat_06": {
+		"category": "record",
+		"sounds": [
+			{
+				"name": "records/record_sparkling_cat_06",
+				"stream": true
+			}
+		]
+	},
+	"records.record_sparkling_cat_07": {
+		"category": "record",
+		"sounds": [
+			{
+				"name": "records/record_sparkling_cat_07",
+				"stream": true
+			}
+		]
+	},
+	"records.record_sparkling_cat_08": {
+		"category": "record",
+		"sounds": [
+			{
+				"name": "records/record_sparkling_cat_08",
+				"stream": true
+			}
+		]
+	},
+	"records.record_sparkling_cat_09": {
+		"category": "record",
+		"sounds": [
+			{
+				"name": "records/record_sparkling_cat_09",
+				"stream": true
+			}
+		]
+	},
+	"records.record_sparkling_cat_10": {
+		"category": "record",
+		"sounds": [
+			{
+				"name": "records/record_sparkling_cat_10",
 				"stream": true
 			}
 		]

@@ -7,7 +7,12 @@
 !/config/*/*
 !/scripts/
 !/scripts/*
+!/resourcepacks/
 !/resourcepacks/*
+!/resourcepacks/*/*
+!/resourcepacks/*/*/*
+!/resourcepacks/*/*/*/*
+!/resourcepacks/*/*/*/*/*
 !/.gitignore
 !/.gitattributes
 !/controls.txt

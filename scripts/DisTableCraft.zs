@@ -34,7 +34,5 @@ Research.addInfusionPage("TTDENCHANTER", <DisenchanterMod:BlockDisenchantmentTab
 
 //задать родительское исследование
 Research.addPrereq("TTDENCHANTER", "ENCHANTER", false);
-//задать родительское исследование
-Research.addPrereq("TTDENCHANTER", "SPELL_CLOTH", false);
 //прячет исследование до момента изучения ключевого объекта (для лорных страниц и первого айтема)
 Research.setHidden("TTDENCHANTER", true);
