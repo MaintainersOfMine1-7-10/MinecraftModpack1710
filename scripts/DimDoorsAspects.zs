@@ -10,6 +10,9 @@ Aspects.set(<dimdoors:Fabric of RealityPerm>, "iter 1, alienis 1, motus 1");
 Aspects.set(<dimdoors:World Thread>,"pannus 1, tenebrae 1, lux 1, permutatio 1");
 Aspects.set(<dimdoors:Quartz Door Item>,"motus 1, machina 1, vitreus 6");
 Aspects.set(<Thaumcraft:blockMirror:1>,"iter 16, metallum 8, lucrum 4, alienis 6, sensus 2, permutatio 2");
+Aspects.set(<Thaumcraft:blockTube>,"vacuos 1, metallum 1");
+Aspects.set(<minecraft:command_block>,"cognitio 10, perplexus 5, principia 5");
+Aspects.set(<lootplusplus:loot_chest>,"lucrum 20, arbor 6, vacuos 4");
 
 /* 
 Прикрутка рецептов
@@ -225,6 +228,88 @@ mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <Thaumcraft:HandMirror>,
 
 ],
 "vacuos 16, ira 2, telum 32, perditio 8", <dimdoors:Rift Blade>, 4);
+
+//портал в Край
+mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <dimdoors:Unraveled Fabric>,
+[
+	<Botania:manaResource:15>,
+	<minecraft:end_stone>,
+	<dimdoors:Unraveled Fabric>,
+	<ThaumicTinkerer:kamiResource:7>,
+	<dimdoors:Unraveled Fabric>,
+	<minecraft:end_stone>,
+	<ThaumicTinkerer:kamiResource:7>,
+	<dimdoors:Unraveled Fabric>,
+	<dimdoors:Unraveled Fabric>,
+	<ThaumicTinkerer:kamiResource:7>,
+	<minecraft:end_stone>,
+	<dimdoors:Unraveled Fabric>,
+	<ThaumicTinkerer:kamiResource:7>,
+	<dimdoors:Unraveled Fabric>,
+	<minecraft:end_stone>,
+],
+"iter 32, alienis 64, tenebrae 128, praecantatio 48", <minecraft:end_portal_frame>, 8);
+
+//бэдрок
+mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <dimdoors:Unraveled Fabric>,
+[
+	<minecraft:obsidian>,
+	<ChromatiCraft:chromaticraft_block_structshield:1>,
+	<TwilightForest:tile.TFMazestone>,
+	<appliedenergistics2:tile.BlockSkyStone:1>,
+	<minecraft:obsidian>,
+	<ChromatiCraft:chromaticraft_block_structshield:1>,
+	<TwilightForest:tile.TFMazestone>,
+	<appliedenergistics2:tile.BlockSkyStone:1>,
+	<minecraft:obsidian>,
+	<ChromatiCraft:chromaticraft_block_structshield:1>,
+	<TwilightForest:tile.TFMazestone>,
+	<appliedenergistics2:tile.BlockSkyStone:1>,
+],
+"terra 384", <minecraft:bedrock>, 4);
+
+//командный блок
+mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <dimdoors:Unraveled Fabric>,
+[
+	<abyssalcraft:antibone>.withTag({display: {Lore: [">Такие дела"], Name: "Хрен Гаргуля"}}),
+	<arsmagica2:natureScythe>,
+	<DraconicEvolution:dragonHeart>,
+	<Thaumcraft:ItemPrimalCrusher>,
+	<minecraft:nether_star>
+],
+"cognitio 128, perplexus 64, principia 64, superbia 404, machina 6", <minecraft:command_block>, 20);
+
+//падающий обсидиан
+mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <dimdoors:Unraveled Fabric>,
+[
+	<minecraft:obsidian>,
+	<minecraft:gravel>,
+	<minecraft:obsidian>,
+	<minecraft:anvil>,
+	<minecraft:obsidian>,
+	<minecraft:sand>,
+],
+"terra 10, tenebrae 5", <HardcoreEnderExpansion:obsidian_end>, 4);
+
+//древняя ткань
+mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <minecraft:bedrock>,
+[
+	<dimdoors:Fabric of Reality>,
+	<dimdoors:Fabric of Reality>,
+	<dimdoors:Fabric of Reality>,
+	<dimdoors:Fabric of Reality>,
+],
+"lux 20, tenebrae 20, vacuos 20", <dimdoors:Fabric of Reality:1>, 6);
+
+//вечная ткань
+mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <dimdoors:Fabric of Reality:1>,
+[
+	<dimdoors:Unraveled Fabric>,
+	<dimdoors:Unraveled Fabric>,
+	<dimdoors:Unraveled Fabric>,
+	<dimdoors:Unraveled Fabric>,
+],
+"iter 20, alienis 20, vacuos 20", <dimdoors:Fabric of RealityPerm>, 6);
 
 /* 
 Прикрутка вкладки
@@ -620,6 +705,13 @@ Research.addPage("DDemiurgy", "derp.research_page.DDemiurgy3");
   game.setLocalization("ru_RU", "derp.research_page.DDemiurgy3", "Глядя в зеркала, Вы видели не то, что находится снаружи мира. Вы видели то, что сокрыто в Вас.<BR>Осознание всего этого дало Вам возможность создавать то, что, как считалось ранее, дано лишь демиургам. Может быть в этом осознании и кроется их безграничное могущество?<BR>Что-то Вам подсказывает, что ответ на этот вопрос Вы получите уже не в этой жизни. Видимо пришла пора переключиться на другие исследования.");
 
 //тут будут крафты для демиургов
+Research.addInfusionPage("DDemiurgy", <minecraft:end_portal_frame>);
+Research.addInfusionPage("DDemiurgy", <minecraft:bedrock>);
+Research.addInfusionPage("DDemiurgy", <minecraft:command_block>);
+Research.addInfusionPage("DDemiurgy", <HardcoreEnderExpansion:obsidian_end>);
+Research.addInfusionPage("DDemiurgy", <dimdoors:Fabric of Reality:1>);
+Research.addInfusionPage("DDemiurgy", <dimdoors:Fabric of RealityPerm>);
+
 //Research.addInfusionPage("DDemiurgy", <ID предмета, чей крафт будет отображаться>);
 
 //задать родительское исследование
