@@ -529,5 +529,95 @@
 				"stream": true
 			}
 		]
+	},
+	"records.record_Vesper_01": {
+		"category": "record",
+		"sounds": [
+			{
+				"name": "records/record_Vesper_01",
+				"stream": true
+			}
+		]
+	},
+	"records.record_Vesper_02": {
+		"category": "record",
+		"sounds": [
+			{
+				"name": "records/record_Vesper_02",
+				"stream": true
+			}
+		]
+	},
+	"records.record_Vesper_03": {
+		"category": "record",
+		"sounds": [
+			{
+				"name": "records/record_Vesper_03",
+				"stream": true
+			}
+		]
+	},
+	"records.record_Vesper_04": {
+		"category": "record",
+		"sounds": [
+			{
+				"name": "records/record_Vesper_04",
+				"stream": true
+			}
+		]
+	},
+	"records.record_Vesper_05": {
+		"category": "record",
+		"sounds": [
+			{
+				"name": "records/record_Vesper_05",
+				"stream": true
+			}
+		]
+	},
+	"records.record_Vesper_06": {
+		"category": "record",
+		"sounds": [
+			{
+				"name": "records/record_Vesper_06",
+				"stream": true
+			}
+		]
+	},
+	"records.record_Vesper_07": {
+		"category": "record",
+		"sounds": [
+			{
+				"name": "records/record_Vesper_07",
+				"stream": true
+			}
+		]
+	},
+	"records.record_Vesper_08": {
+		"category": "record",
+		"sounds": [
+			{
+				"name": "records/record_Vesper_08",
+				"stream": true
+			}
+		]
+	},
+	"records.record_Vesper_09": {
+		"category": "record",
+		"sounds": [
+			{
+				"name": "records/record_Vesper_09",
+				"stream": true
+			}
+		]
+	},
+	"records.record_Vesper_10": {
+		"category": "record",
+		"sounds": [
+			{
+				"name": "records/record_Vesper_10",
+				"stream": true
+			}
+		]
 	}
 }
