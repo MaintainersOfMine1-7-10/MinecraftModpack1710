@@ -80,4 +80,15 @@ oreDictEnt.addItems([
 	<TConstruct:manualBook:4>,
 ]);
 
+//опилки
+val oreDictDust = <ore:dustWood>;
+oreDictDust.addItems([
+	<ExtraTrees:misc:1>,
+	<Forestry:woodPulp>,
+]);
+val oreDictPulp = <ore:pulpWood>;
+oreDictPulp.addItems([
+	<ThermalExpansion:material:512>,
+]);
+
 //for a testing purposes
