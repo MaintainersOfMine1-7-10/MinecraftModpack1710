@@ -1,8 +1,8 @@
 import mods.thaumcraft.Aspects;
 import mods.thaumcraft.Research;
-/* 
-Made by Gargule
-Прикрутка аспектов
+///////////////////////////////* 
+//////////////////////////////Made by Gargule
+//////////////////////////////Прикрутка аспектов
 */
 Aspects.set(<dimdoors:Rift>,"tenebrae 8, alienis 8, iter 8, fames 8");
 Aspects.set(<dimdoors:Fabric of Reality>, "tenebrae 4, lux 4, permutatio 4");
@@ -14,8 +14,8 @@ Aspects.set(<Thaumcraft:blockTube>,"vacuos 1, metallum 1");
 Aspects.set(<minecraft:command_block>,"cognitio 10, perplexus 5, principia 5");
 Aspects.set(<lootplusplus:loot_chest>,"lucrum 20, arbor 6, vacuos 4");
 
-/* 
-Прикрутка рецептов
+///////////////////////////////* 
+//////////////////////////////Прикрутка рецептов
 */
 
 //люк межпространственный
@@ -125,27 +125,24 @@ mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <dimdoors:Dimensional Door Item
 ],
 "tempus 64, tutamen 32, lucrum 16", <dimdoors:Golden Dimensional Door Item>, 6);
 
-for AluminumIngot in <ore:ingotAluminum>.items
-{
-	//стабильная ткань
+//стабильная ткань
 	recipes.remove(<dimdoors:Stable Fabric Item>);
 	mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <minecraft:ender_pearl>,
 	[
 		<Thaumcraft:ItemResource:3>,
 		<dimdoors:World Thread>,
 		<dimdoors:World Thread>,
-		AluminumIngot,
+		<TConstruct:materials:11>,
 		<dimdoors:World Thread>,
 		<dimdoors:World Thread>,
 		<Thaumcraft:ItemResource:3>,
 		<dimdoors:World Thread>,
 		<dimdoors:World Thread>,
-		AluminumIngot,
+		<TConstruct:materials:11>,
 		<dimdoors:World Thread>,
 		<dimdoors:World Thread>,
 	],
 	"ordo 8, pannus 8, vacuos 1", <dimdoors:Stable Fabric Item>, 2);
-}
 
 //катализатор разрыва
 recipes.remove(<dimdoors:Rift Signature>);
@@ -311,8 +308,8 @@ mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <dimdoors:Fabric of Reality:1>,
 ],
 "iter 20, alienis 20, vacuos 20", <dimdoors:Fabric of RealityPerm>, 6);
 
-/* 
-Прикрутка вкладки
+///////////////////////////////* 
+//////////////////////////////Прикрутка вкладки
 */
 var tabName = "DIMDOORS";
 
@@ -332,8 +329,8 @@ Research.addTab(tabName, tabTextureMod, tabTextureSrc, backTextureMod, backTextu
   game.setLocalization("en_US", "tc.research_category." + tabName, "Dimensional Doors");
   game.setLocalization("ru_RU", "tc.research_category." + tabName, "Пространственные Двери");
 
-/* 
-Прикрутка исследований
+///////////////////////////////* 
+//////////////////////////////Прикрутка исследований
 */
 
 //Таинственные руины
