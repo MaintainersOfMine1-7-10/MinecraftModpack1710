@@ -1,8 +1,8 @@
 import mods.thaumcraft.Aspects;
 import mods.thaumcraft.Research;
-///////////////////////////////* 
-//////////////////////////////Made by Gargule
-//////////////////////////////Прикрутка аспектов
+/* 
+Made by Gargule
+Прикрутка аспектов
 */
 Aspects.set(<dimdoors:Rift>,"tenebrae 8, alienis 8, iter 8, fames 8");
 Aspects.set(<dimdoors:Fabric of Reality>, "tenebrae 4, lux 4, permutatio 4");
@@ -14,13 +14,13 @@ Aspects.set(<Thaumcraft:blockTube>,"vacuos 1, metallum 1");
 Aspects.set(<minecraft:command_block>,"cognitio 10, perplexus 5, principia 5");
 Aspects.set(<lootplusplus:loot_chest>,"lucrum 20, arbor 6, vacuos 4");
 
-///////////////////////////////* 
-//////////////////////////////Прикрутка рецептов
+/* 
+Прикрутка рецептов
 */
 
 //люк межпространственный
 recipes.remove(<dimdoors:Transdimensional Trapdoor>);
-mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <minecraft:trapdoor>,
+mods.thaumcraft.Infusion.addRecipe("DDWarpDoor", <minecraft:trapdoor>,
 [
 	<dimdoors:Stable Fabric Item>,
 	<dimdoors:World Thread>,
@@ -35,7 +35,7 @@ mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <minecraft:trapdoor>,
 
 //дверь искривляющая
 recipes.remove(<dimdoors:Warp Door Item>);
-mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <minecraft:wooden_door>,
+mods.thaumcraft.Infusion.addRecipe("DDWarpDoor", <minecraft:wooden_door>,
 [
 	<dimdoors:Stable Fabric Item>,
 	<dimdoors:World Thread>,
@@ -50,7 +50,7 @@ mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <minecraft:wooden_door>,
 
 //дверь нестабильная
 recipes.remove(<dimdoors:Unstable Door Item>);
-mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <minecraft:iron_door>,
+mods.thaumcraft.Infusion.addRecipe("DDUnstableDoor", <minecraft:iron_door>,
 [
 	<dimdoors:World Thread>,
 	<Thaumcraft:ItemShard:5>,
@@ -70,7 +70,7 @@ mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <minecraft:iron_door>,
 
 //дверь пространственная
 recipes.remove(<dimdoors:Dimensional Door Item>);
-mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <dimdoors:Unstable Door Item>,
+mods.thaumcraft.Infusion.addRecipe("DDimensionalDoor", <dimdoors:Unstable Door Item>,
 [
 	<dimdoors:World Thread>,
 	<Thaumcraft:ItemShard:4>,
@@ -89,7 +89,7 @@ mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <dimdoors:Unstable Door Item>,
 
 //дверь личная
 recipes.remove(<dimdoors:Personal Dimensional Door Item>);
-mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <minecraft:ender_chest>,
+mods.thaumcraft.Infusion.addRecipe("DDPersonal", <minecraft:ender_chest>,
 [
 	<minecraft:skull:3>,
 	<dimdoors:World Thread>,
@@ -108,7 +108,7 @@ mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <minecraft:ender_chest>,
 
 //дверь золотая пространственная
 recipes.remove(<dimdoors:Golden Dimensional Door Item>);
-mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <dimdoors:Dimensional Door Item>,
+mods.thaumcraft.Infusion.addRecipe("DDGolden", <dimdoors:Dimensional Door Item>,
 [
 	<minecraft:golden_apple:1>,
 	<minecraft:clock>,
@@ -126,27 +126,27 @@ mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <dimdoors:Dimensional Door Item
 "tempus 64, tutamen 32, lucrum 16", <dimdoors:Golden Dimensional Door Item>, 6);
 
 //стабильная ткань
-	recipes.remove(<dimdoors:Stable Fabric Item>);
-	mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <minecraft:ender_pearl>,
-	[
-		<Thaumcraft:ItemResource:3>,
-		<dimdoors:World Thread>,
-		<dimdoors:World Thread>,
-		<TConstruct:materials:11>,
-		<dimdoors:World Thread>,
-		<dimdoors:World Thread>,
-		<Thaumcraft:ItemResource:3>,
-		<dimdoors:World Thread>,
-		<dimdoors:World Thread>,
-		<TConstruct:materials:11>,
-		<dimdoors:World Thread>,
-		<dimdoors:World Thread>,
-	],
-	"ordo 8, pannus 8, vacuos 1", <dimdoors:Stable Fabric Item>, 2);
+recipes.remove(<dimdoors:Stable Fabric Item>);
+mods.thaumcraft.Infusion.addRecipe("DDStableFabric", <minecraft:ender_pearl>,
+[
+	<Thaumcraft:ItemResource:3>,
+	<dimdoors:World Thread>,
+	<dimdoors:World Thread>,
+	<TConstruct:materials:11>,
+	<dimdoors:World Thread>,
+	<dimdoors:World Thread>,
+	<Thaumcraft:ItemResource:3>,
+	<dimdoors:World Thread>,
+	<dimdoors:World Thread>,
+	<TConstruct:materials:11>,
+	<dimdoors:World Thread>,
+	<dimdoors:World Thread>,
+],
+"ordo 8, pannus 8, vacuos 1", <dimdoors:Stable Fabric Item>, 2);
 
 //катализатор разрыва
 recipes.remove(<dimdoors:Rift Signature>);
-mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <minecraft:shears>,
+mods.thaumcraft.Infusion.addRecipe("DDRiftSignature", <minecraft:shears>,
 [
 	<Thaumcraft:FocusPortableHole>,
 	<dimdoors:Stable Fabric Item>,
@@ -165,7 +165,7 @@ mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <minecraft:shears>,
 
 //удалитель разрывов
 recipes.remove(<dimdoors:Rift Remover>);
-mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <Thaumcraft:blockMirror>,
+mods.thaumcraft.Infusion.addRecipe("DDRiftRemover", <Thaumcraft:blockMirror>,
 [
 	<Thaumcraft:ItemBathSalts>,
 	<dimdoors:Stable Fabric Item>,
@@ -184,7 +184,7 @@ mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <Thaumcraft:blockMirror>,
 
 //катализатор мультиразрыва
 recipes.remove(<dimdoors:Stabilized Rift Signature>);
-mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <Thaumcraft:HandMirror>,
+mods.thaumcraft.Infusion.addRecipe("DDStabilizedRift", <Thaumcraft:HandMirror>,
 [
 	<dimdoors:Rift Signature>,
 	<Thaumcraft:blockMirror>,
@@ -208,7 +208,7 @@ mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <Thaumcraft:HandMirror>,
 
 //рифт сорд
 recipes.remove(<dimdoors:Rift Blade>);
-mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <Thaumcraft:HandMirror>,
+mods.thaumcraft.Infusion.addRecipe("DDRiftBlade", <Thaumcraft:HandMirror>,
 [
 	<Thaumcraft:FocusPortableHole>,
 	<dimdoors:Stable Fabric Item>,
@@ -227,7 +227,7 @@ mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <Thaumcraft:HandMirror>,
 "vacuos 16, ira 2, telum 32, perditio 8", <dimdoors:Rift Blade>, 4);
 
 //портал в Край
-mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <dimdoors:Unraveled Fabric>,
+mods.thaumcraft.Infusion.addRecipe("DDemiurgy", <dimdoors:Unraveled Fabric>,
 [
 	<Botania:manaResource:15>,
 	<minecraft:end_stone>,
@@ -248,7 +248,7 @@ mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <dimdoors:Unraveled Fabric>,
 "iter 32, alienis 64, tenebrae 128, praecantatio 48", <minecraft:end_portal_frame>, 8);
 
 //бэдрок
-mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <dimdoors:Unraveled Fabric>,
+mods.thaumcraft.Infusion.addRecipe("DDemiurgy", <dimdoors:Unraveled Fabric>,
 [
 	<minecraft:obsidian>,
 	<ChromatiCraft:chromaticraft_block_structshield:1>,
@@ -266,7 +266,7 @@ mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <dimdoors:Unraveled Fabric>,
 "terra 384", <minecraft:bedrock>, 4);
 
 //командный блок
-mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <dimdoors:Unraveled Fabric>,
+mods.thaumcraft.Infusion.addRecipe("DDemiurgy", <dimdoors:Unraveled Fabric>,
 [
 	<abyssalcraft:antibone>.withTag({display: {Lore: [">Такие дела"], Name: "Хрен Гаргуля"}}),
 	<arsmagica2:natureScythe>,
@@ -277,7 +277,7 @@ mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <dimdoors:Unraveled Fabric>,
 "cognitio 128, perplexus 64, principia 64, superbia 404, machina 6", <minecraft:command_block>, 20);
 
 //падающий обсидиан
-mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <dimdoors:Unraveled Fabric>,
+mods.thaumcraft.Infusion.addRecipe("DDemiurgy", <dimdoors:Unraveled Fabric>,
 [
 	<minecraft:obsidian>,
 	<minecraft:gravel>,
@@ -289,7 +289,7 @@ mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <dimdoors:Unraveled Fabric>,
 "terra 10, tenebrae 5", <HardcoreEnderExpansion:obsidian_end>, 4);
 
 //древняя ткань
-mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <minecraft:bedrock>,
+mods.thaumcraft.Infusion.addRecipe("DDemiurgy", <minecraft:bedrock>,
 [
 	<dimdoors:Fabric of Reality>,
 	<dimdoors:Fabric of Reality>,
@@ -299,7 +299,7 @@ mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <minecraft:bedrock>,
 "lux 20, tenebrae 20, vacuos 20", <dimdoors:Fabric of Reality:1>, 6);
 
 //вечная ткань
-mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <dimdoors:Fabric of Reality:1>,
+mods.thaumcraft.Infusion.addRecipe("DDemiurgy", <dimdoors:Fabric of Reality:1>,
 [
 	<dimdoors:Unraveled Fabric>,
 	<dimdoors:Unraveled Fabric>,
@@ -308,8 +308,8 @@ mods.thaumcraft.Infusion.addRecipe("DDIronDoor", <dimdoors:Fabric of Reality:1>,
 ],
 "iter 20, alienis 20, vacuos 20", <dimdoors:Fabric of RealityPerm>, 6);
 
-///////////////////////////////* 
-//////////////////////////////Прикрутка вкладки
+/* 
+Прикрутка вкладки
 */
 var tabName = "DIMDOORS";
 
@@ -329,8 +329,8 @@ Research.addTab(tabName, tabTextureMod, tabTextureSrc, backTextureMod, backTextu
   game.setLocalization("en_US", "tc.research_category." + tabName, "Dimensional Doors");
   game.setLocalization("ru_RU", "tc.research_category." + tabName, "Пространственные Двери");
 
-///////////////////////////////* 
-//////////////////////////////Прикрутка исследований
+/* 
+Прикрутка исследований
 */
 
 //Таинственные руины
