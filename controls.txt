@@ -98,6 +98,7 @@ key_key.secretroomsmod.oneWayface:43
 key_key.cofh.multimode:27
 key_Gravi Display Hud:64
 key_key.cofh.empower:26
+key_Swap Offhand:47&SHIFT
 key_Fire Ability 0:79
 key_Fire Ability 1:80
 key_Fire Ability 2:81
