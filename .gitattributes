@@ -1,1 +1,2 @@
 ChromatiCraft+1.7.10+v31b.jar filter=lfs diff=lfs merge=lfs -text
+mods/ChromatiCraft[[:space:]]1.7.10[[:space:]]V33a.jar filter=lfs diff=lfs merge=lfs -text
